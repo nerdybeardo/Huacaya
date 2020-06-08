@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+    <PackageReference Include="Microsoft.Win32.Registry" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Huacaya.Core.Ascom\Huacaya.Core.Ascom.csproj" />
+    <ProjectReference Include="..\Huacaya.Core.BusinessServices\Huacaya.Core.Framework.csproj" />
+    <ProjectReference Include="..\Huacaya.Core.Contracts\Huacaya.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Huacaya.Core.Data\Huacaya.Core.Data.csproj" />
+  </ItemGroup>
+
+
+</Project>

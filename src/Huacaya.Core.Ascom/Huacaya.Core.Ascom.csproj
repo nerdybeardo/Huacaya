@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Huacaya.Core</RootNamespace>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ASCOM.Platform" Version="6.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Huacaya.Core.Contracts\Huacaya.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Huacaya.Core.Data\Huacaya.Core.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Caching" />
+  </ItemGroup>
+
+</Project>
